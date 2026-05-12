@@ -32,7 +32,7 @@ const Resume = () => {
   const handleDownload = () => {
     // UPDATE: Add your resume PDF to public/resume/
     const link = document.createElement('a');
-    link.href = '/resume/william-lebris-resume.pdf';
+    link.href = '/website/resume/William%20Resume.pdf';
     link.download = 'William_Lebris_Resume.pdf';
     link.click();
   };
@@ -148,7 +148,7 @@ const Resume = () => {
           >
             {/* UPDATE: Add your resume PDF to public/resume/ */}
             <embed
-              src="/resume/william-lebris-resume.pdf"
+              src="/website/resume/William%20Resume.pdf"
               type="application/pdf"
               className="w-full"
               style={{ height: '1100px' }}
