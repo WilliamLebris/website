@@ -9,7 +9,7 @@ const Projects = () => {
       id: 1,
       title: 'Heatly Plan AI | AI-Powered Health & Nutrition Platform',
       description: 'Built an AI-powered health assistant for diabetic and prediabetic users that delivers accurate nutrition analysis, personalized meal plans, smart grocery optimization, and doctor-style reports, bridging AI insights with real-world medical guidance.',
-      image: '/images/project1.jpg', // UPDATE: Add your project image to public/images/
+      image: '/website/images/project1.jpg', // UPDATE: Add your project image to public/images/
       tags: ['Python', 'Javascript', 'HTML & CSS', 'OpenCV', 'Flask', 'Streamlit'],
       githubUrl: 'https://github.com/WilliamLebris?tab=repositories',
       liveUrl: 'https://healthyplan.streamlit.app/'
@@ -18,7 +18,7 @@ const Projects = () => {
       id: 2,
       title: 'StudentLife OS Platform',
       description: 'Developed a platform that provide California CC Student with Internship, Scholarship, Conferences, Event,  Resources, I partneted with 20+ School, 30+ organizations to help 1000+ students. Everyone has his own dashboard and login portal.',
-      image: '/images/project2.jpg', // UPDATE: Add your project image
+      image: '/website//images/project2.jpg', // UPDATE: Add your project image
       tags: ['Python', 'React', 'HTML & CSS', 'Resend', 'AWS','Supabase', 'Prisma', 'Apis (Open Ai, Etc)', 'Postgrels'],
       githubUrl: 'https://studentlifeos.com',
       liveUrl: 'https://studentlifeos.com'
@@ -27,7 +27,7 @@ const Projects = () => {
       id: 3,
       title: 'Smart Study Assistant',
       description: 'Developed an AI-powered study assistant that generates practice questions from lecture notes, provides real-time feedback, and tracks learning progress to enhance student engagement and retention.',
-      image: '/images/project3.jpg', // UPDATE: Add your project image
+      image: '/website//images/project3.jpg', // UPDATE: Add your project image
       tags: ['Python', 'YOLO', 'OpenCV', 'PyTorch'],
       githubUrl: 'https://github.com/WilliamLebris?tab=repositories',
       liveUrl: 'https://github.com/WilliamLebris?tab=repositories'
@@ -36,7 +36,7 @@ const Projects = () => {
       id: 4,
       title: 'Order Management System ',
       description: 'Developed a full-stack order management system for a retail business, featuring inventory tracking, order processing, and customer management with a user-friendly interface and real-time updates.',
-      image: '/images/project4.jpg', // UPDATE: Add your project image
+      image: '/website//images/project4.jpg', // UPDATE: Add your project image
       tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
       githubUrl: 'https://github.com/williamlebris/project4',
       liveUrl: 'https://project4-demo.com'
@@ -45,7 +45,7 @@ const Projects = () => {
       id: 5,
       title: 'Weather Prediction ML Model',
       description: 'Machine learning model that predicts weather patterns using historical data and real-time sensors with 87% accuracy for 7-day forecasts.',
-      image: '/images/project5.jpg', // UPDATE: Add your project image
+      image: '/website//images/project5.jpg', // UPDATE: Add your project image
       tags: ['Python', 'Scikit-learn', 'Pandas', 'APIs'],
       githubUrl: 'https://github.com/WilliamLebris?tab=repositories',
       liveUrl: 'https://github.com/WilliamLebris?tab=repositories'
@@ -54,7 +54,7 @@ const Projects = () => {
       id: 6,
       title: 'Event planner ',
       description: 'Developed a full-stack system for planning and managing events, including scheduling, guest lists, and task assignments with real-time collaboration features.',
-      image: '/images/project6.jpg', // UPDATE: Add your project image
+      image: '/website//images/project6.jpg', // UPDATE: Add your project image
       tags: ['Python', 'Scikit-learn', 'Pandas', 'APIs'],
       githubUrl: 'https://github.com/WilliamLebris?tab=repositories',
       liveUrl: 'https://github.com/WilliamLebris?tab=repositories'

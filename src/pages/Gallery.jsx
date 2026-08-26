@@ -10,37 +10,37 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      image: '/images/gallery/gallery1.jpg',
+      image: '/website/images/gallery/gallery1.jpg',
       title: 'American Tech Computer Repair Shop 💻🛠️',
       description: 'When I was tasked to work on computers, change motherboard, install OS, and troubleshoot hardware/software issues at the repair shop.'
     },
     {
       id: 2,
-      image: '/images/gallery/gallery2.jpg',
+      image: '/website/images/gallery/gallery2.jpg',
       title: 'Tour at Meta 🧑‍💻Instagram💡Thread📝Faceboook',
       description: 'Visited Meta headquarters and got an exclusive tour of their offices, learning about their latest projects and innovations in social media technology. Learning a lot about different careers in tech industry, and what each does. Got some bright ideas and lots of adivices from mentors!, I expanded my network too!'
     },
     {
       id: 3,
-      image: '/images/gallery/gallery3.jpg',
+      image: '/website/images/gallery/gallery3.jpg',
       title: 'IT Department 🖥️📡',
       description: 'Tackling network issues and ensuring smooth connectivity across the organization as part of the IT support team. Gained hands-on experience in troubleshooting and maintaining network infrastructure, routers, and switches, ensuring smooth and secure connectivity for all users including WiFi setup.'
     },
     {
       id: 4,
-      image: '/images/gallery/gallery4.jpg',
+      image: '/website/images/gallery/gallery4.jpg',
       title: 'Alameda Navy Reserve Base 🇺🇸🛳️',
       description: 'Visiting old military base and navy center to air out my mind, think about new projects, trying to understand how technologies started and evolved over time in different fields.'
     },
     {
       id: 5,
-      image: '/images/gallery/gallery5.jpg',
+      image: '/website/images/gallery/gallery5.jpg',
       title: 'American Tech Berkeley 📱💻',
       description: 'proved my supervisor wrong 😂 by successfully tackling a software issue that others couldn\'t resolve, showcasing my problem-solving skills and determination.'
     },
     {
       id: 6,
-      image: '/images/gallery/gallery6.jpg',
+      image: '/website/images/gallery/gallery6.jpg',
       title: 'Hackathon Winner 🏆💡',
       description: 'Won first place at the Tech Innovation Hackathon Sponsored by ZoHo Corporation, Charmhealth, for building an AI-powered healthcare solution in 48 hours.'
     }

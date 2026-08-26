@@ -22,44 +22,44 @@ const Skills = () => {
   // Skill icons with positions
   const skills = [
   // Programming Languages & Web Core
-  { name: 'C', logo: '/icons/c.svg', color: '#A8B9CC', angle: 0, radius: 240 },
-  { name: 'C++', logo: '/icons/cplusplus.svg', color: '#00599C', angle: 40, radius: 260 },
-  { name: 'Python', logo: '/icons/python.svg', color: '#3776AB', angle: 80, radius: 280 },
-  { name: 'JavaScript', logo: '/icons/javascript.svg', color: '#F7DF1E', angle: 120, radius: 250 },
-  { name: 'HTML5', logo: '/icons/html5.svg', color: '#E34F26', angle: 160, radius: 260 },
-  { name: 'CSS', logo: '/icons/css.svg', color: '#1572B6', angle: 200, radius: 240 },
-  { name: 'SVG', logo: '/icons/svg.svg', color: '#FFB13B', angle: 240, radius: 260 },
+  { name: 'C', logo: '/website/icons/c.svg', color: '#A8B9CC', angle: 0, radius: 240 },
+  { name: 'C++', logo: '/website/icons/cplusplus.svg', color: '#00599C', angle: 40, radius: 260 },
+  { name: 'Python', logo: '/website/icons/python.svg', color: '#3776AB', angle: 80, radius: 280 },
+  { name: 'JavaScript', logo: '/website/icons/javascript.svg', color: '#F7DF1E', angle: 120, radius: 250 },
+  { name: 'HTML5', logo: '/website/icons/html5.svg', color: '#E34F26', angle: 160, radius: 260 },
+  { name: 'CSS', logo: '/website/icons/css.svg', color: '#1572B6', angle: 200, radius: 240 },
+  { name: 'SVG', logo: '/website/icons/svg.svg', color: '#FFB13B', angle: 240, radius: 260 },
 
   // Frameworks & Libraries
-  { name: 'React', logo: '/icons/react.svg', color: '#61DAFB', angle: 20, radius: 300 },
-  { name: 'Flask', logo: '/icons/flask.svg', color: '#FFFFFF', angle: 60, radius: 310 },
-  { name: 'Tailwind CSS', logo: '/icons/tailwindcss.svg', color: '#38BDF8', angle: 100, radius: 290 },
-  { name: 'Streamlit', logo: '/icons/streamlit.svg', color: '#FF4B4B', angle: 140, radius: 300 },
-  { name: 'Pandas', logo: '/icons/pandas.svg', color: '#150458', angle: 180, radius: 310 },
-  { name: 'OpenCV', logo: '/icons/opencv.svg', color: '#5C3EE8', angle: 220, radius: 290 },
-  { name: 'PyTorch', logo: '/icons/pytorch.svg', color: '#EE4C2C', angle: 260, radius: 300 },
-  { name: 'TensorFlow', logo: '/icons/tensorflow.svg', color: '#FF6F00', angle: 300, radius: 310 },
+  { name: 'React', logo: '/website/icons/react.svg', color: '#61DAFB', angle: 20, radius: 300 },
+  { name: 'Flask', logo: '/website/icons/flask.svg', color: '#FFFFFF', angle: 60, radius: 310 },
+  { name: 'Tailwind CSS', logo: '/website/icons/tailwindcss.svg', color: '#38BDF8', angle: 100, radius: 290 },
+  { name: 'Streamlit', logo: '/website/icons/streamlit.svg', color: '#FF4B4B', angle: 140, radius: 300 },
+  { name: 'Pandas', logo: '/website/icons/pandas.svg', color: '#150458', angle: 180, radius: 310 },
+  { name: 'OpenCV', logo: '/website/icons/opencv.svg', color: '#5C3EE8', angle: 220, radius: 290 },
+  { name: 'PyTorch', logo: '/website/icons/pytorch.svg', color: '#EE4C2C', angle: 260, radius: 300 },
+  { name: 'TensorFlow', logo: '/website/icons/tensorflow.svg', color: '#FF6F00', angle: 300, radius: 310 },
 
   // Databases & Backend
-  { name: 'PostgreSQL', logo: '/icons/postgresql.svg', color: '#336791', angle: 30, radius: 340 },
-  { name: 'MySQL', logo: '/icons/mysql.svg', color: '#4479A1', angle: 90, radius: 350 },
-  { name: 'MongoDB', logo: '/icons/mongodb.svg', color: '#47A248', angle: 150, radius: 340 },
-  { name: 'Prisma', logo: '/icons/prisma.svg', color: '#2D3748', angle: 210, radius: 350 },
-  { name: 'Supabase', logo: '/icons/supabase.svg', color: '#3ECF8E', angle: 270, radius: 340 },
-  { name: 'Snowflake', logo: '/icons/snowflake.svg', color: '#56B9EB', angle: 330, radius: 350 },
+  { name: 'PostgreSQL', logo: '/website/icons/postgresql.svg', color: '#336791', angle: 30, radius: 340 },
+  { name: 'MySQL', logo: '/website/icons/mysql.svg', color: '#4479A1', angle: 90, radius: 350 },
+  { name: 'MongoDB', logo: '/website/icons/mongodb.svg', color: '#47A248', angle: 150, radius: 340 },
+  { name: 'Prisma', logo: '/website/icons/prisma.svg', color: '#2D3748', angle: 210, radius: 350 },
+  { name: 'Supabase', logo: '/website/icons/supabase.svg', color: '#3ECF8E', angle: 270, radius: 340 },
+  { name: 'Snowflake', logo: '/website/icons/snowflake.svg', color: '#56B9EB', angle: 330, radius: 350 },
 
   // Hardware & OS
-  { name: 'Raspberry Pi', logo: '/icons/raspberrypi.svg', color: '#C51A4A', angle: 50, radius: 380 },
-  { name: 'Arduino', logo: '/icons/arduino.svg', color: '#00979D', angle: 130, radius: 380 },
-  { name: 'macOS', logo: '/icons/macos.svg', color: '#FFFFFF', angle: 210, radius: 380 },
+  { name: 'Raspberry Pi', logo: '/website/icons/raspberrypi.svg', color: '#C51A4A', angle: 50, radius: 380 },
+  { name: 'Arduino', logo: '/website/icons/arduino.svg', color: '#00979D', angle: 130, radius: 380 },
+  { name: 'macOS', logo: '/website/icons/macos.svg', color: '#FFFFFF', angle: 210, radius: 380 },
 
   // Tools & Platforms
-  { name: 'Git', logo: '/icons/git.svg', color: '#F05032', angle: 70, radius: 410 },
-  { name: 'GitHub', logo: '/icons/github.svg', color: '#FFFFFF', angle: 150, radius: 410 },
-  { name: 'CodeRabbit', logo: '/icons/coderabbit.svg', color: '#FF6B6B', angle: 230, radius: 410 },
-  { name: 'Devpost', logo: '/icons/devpost.svg', color: '#003E54', angle: 310, radius: 410 },
-  { name: 'Discord', logo: '/icons/discord.svg', color: '#5865F2', angle: 350, radius: 420 },
-  { name: 'WordPress', logo: '/icons/wordpress.svg', color: '#21759B', angle: 10, radius: 420 },
+  { name: 'Git', logo: '/website/icons/git.svg', color: '#F05032', angle: 70, radius: 410 },
+  { name: 'GitHub', logo: '/website/icons/github.svg', color: '#FFFFFF', angle: 150, radius: 410 },
+  { name: 'CodeRabbit', logo: '/website/icons/coderabbit.svg', color: '#FF6B6B', angle: 230, radius: 410 },
+  { name: 'Devpost', logo: '/website/icons/devpost.svg', color: '#003E54', angle: 310, radius: 410 },
+  { name: 'Discord', logo: '/website/icons/discord.svg', color: '#5865F2', angle: 350, radius: 420 },
+  { name: 'WordPress', logo: '/website/icons/wordpress.svg', color: '#21759B', angle: 10, radius: 420 },
 ];
 
 

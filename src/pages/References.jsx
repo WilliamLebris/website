@@ -13,7 +13,7 @@ const References = () => {
       email: '************@peralta.edu',
       phone: '+1 (***) ***-***',
       linkedin: 'https://www.linkedin.com/in/elisabeth-chemouni-3821388/',
-      photo: '/images/references/ref1.jpg',
+      photo: '/website/images/references/ref1.jpg',
       description: 'Elisabeth was my math professor at first, based on my performance she offered me a tutoring position to help other students excel in math. She has been a great mentor and guide throughout my academic journey.',
       yearsKnown: '3 years'
     },
@@ -25,7 +25,7 @@ const References = () => {
       email: '************@marinasecurity.com',
       phone: '+1 (***) ***-***',
       linkedin: 'https://www.linkedin.com/in/benedict-haring/',
-      photo: '/images/references/ref2.jpg',
+      photo: '/website/images/references/ref2.jpg',
       description: 'Ben was my supervisor during my internship at Marina Security Services. He provided invaluable insights into network security and IT infrastructure, helping me develop practical skills in the field.',
       yearsKnown: '1 years'
     },
@@ -37,7 +37,7 @@ const References = () => {
       email: '************@peralta.edu',
       phone: '+1 (***) ***-****',
       linkedin: 'https://www.linkedin.com/in/skyler-barton-4266b628/',
-      photo: '/images/references/ref3.jpg',
+      photo: '/website/images/references/ref3.jpg',
       description: 'Skyler has been my academic advisor, helping me navigate my educational path and career goals. Her support and advice have been instrumental in my success.',
       yearsKnown: '3 years'
     },
@@ -49,7 +49,7 @@ const References = () => {
       email: '***************@americantech.com',
       phone: '+1 (***) ***-****',
       linkedin: 'https://www.linkedin.com/company/americantech/',
-      photo: '/images/references/ref4.jpg',
+      photo: '/website/images/references/ref4.jpg',
       description: 'Samson was my supervisor during my time at American Tech. He taught me the ins and outs of computer repair and customer service, significantly enhancing my technical and interpersonal skills.',
       yearsKnown: '2 years'
     },
@@ -61,7 +61,7 @@ const References = () => {
       email: '*************@peralta.edu',
       phone: '+1 (***) ***-****',
       linkedin: 'https://www.linkedin.com/in/pszoro/',
-      photo: '/images/references/ref5.jpg',
+      photo: '/website/images/references/ref5.jpg',
       description: 'Zoro is a fellow coworker from Berkeley City College. He was an amazing tutor, We collaborated on various projects on how to make tutoring and study session better, fostering a productive and supportive working relationship.',
       yearsKnown: '3 year'
     },
@@ -73,7 +73,7 @@ const References = () => {
       email: '*************@peralta.edu',
       phone: '+1 (***) ***-****',
       linkedin: 'https://www.linkedin.com/in/william-jones-74728ba5/',
-      photo: '/images/references/ref6.jpg',
+      photo: '/website/images/references/ref6.jpg',
       description: 'William, even though we have the same first name, was my supervisor during my internship at Laney College IT Department. He provided me with hands-on experience in IT support and network management, greatly enhancing my technical expertise.',
       yearsKnown: '2 years'
     }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// eslint-disable-next-line no-unused-vars -- `motion` is used as <motion.div>, which no-unused-vars doesn't detect
 import { motion, AnimatePresence } from 'framer-motion';
 import { Award, X, ExternalLink } from 'lucide-react';
 
@@ -8,13 +9,22 @@ const Certificates = () => {
   // UPDATE: Add your certificate images to public/images/certificates/
   const techCertificates = [
     {
+      id: 12,
+      name: 'Advancing Space Sciences Research 🚀🎖️',
+      issuer: 'UC Berkeley Space Sciences Laboratory (SSL)',
+      year: '2026',
+      location: 'Berkeley, CA',
+      image: '/website/images/certificates/ssl-certificate.png',
+      preview: '/website/images/certificates/ssl-certificate.png'
+    },
+    {
       id: 1,
       name: 'Certificate of Achievement 🎖️',
       issuer: 'Hack the Hood Organization',
       year: '2025',
       location: 'Oakland, CA (Hybrid)',
-      image: '/images/certificates/cert1.jpg',
-      preview: '/images/certificates/cert1.jpg'
+      image: '/website/images/certificates/cert1.jpg',
+      preview: '/website/images/certificates/cert1.jpg'
     },
     {
       id: 2,
@@ -22,8 +32,8 @@ const Certificates = () => {
       issuer: 'UC Berkeley',
       year: '2025',
       location: 'Berkeley, CA (Online)',
-      image: '/images/certificates/cert2.jpg',
-      preview: '/images/certificates/cert2.jpg'
+      image: '/website/images/certificates/cert2.jpg',
+      preview: '/website/images/certificates/cert2.jpg'
     },
     {
       id: 3,
@@ -31,8 +41,8 @@ const Certificates = () => {
       issuer: 'Zoho Corporation',
       year: '2025',
       location: 'Pleasaton, CA (In-person)',
-      image: '/images/certificates/cert3.jpg',
-      preview: '/images/certificates/cert3.jpg'
+      image: '/website/images/certificates/cert3.jpg',
+      preview: '/website/images/certificates/cert3.jpg'
     },
     {
       id: 4,
@@ -40,8 +50,8 @@ const Certificates = () => {
       issuer: 'East Bay Municipal Utility District',
       year: '2024',
       location: 'Oakland, CA (In-person)',
-      image: '/images/certificates/cert4.jpg',
-      preview: '/images/certificates/cert4.jpg'
+      image: '/website/images/certificates/cert4.jpg',
+      preview: '/website/images/certificates/cert4.jpg'
     },
     {
       id: 5,
@@ -49,8 +59,8 @@ const Certificates = () => {
       issuer: 'Berkeley City College',
       year: '2024',
       location: 'Berkeley, CA',
-      image: '/images/certificates/cert5.jpg',
-      preview: '/images/certificates/cert5.jpg'
+      image: '/website/images/certificates/cert5.jpg',
+      preview: '/website/images/certificates/cert5.jpg'
     },
     {
       id: 6,
@@ -58,8 +68,8 @@ const Certificates = () => {
       issuer: 'Mineral',
       year: '2025',
       location: 'CA (Online)',
-      image: '/images/certificates/cert6.jpg',
-      preview: '/images/certificates/cert6.jpg'
+      image: '/website/images/certificates/cert6.jpg',
+      preview: '/website/images/certificates/cert6.jpg'
     },
     {
       id: 7,
@@ -67,8 +77,8 @@ const Certificates = () => {
       issuer: 'Mineral',
       year: '2025',
       location: 'CA (Online)',
-      image: '/images/certificates/cert7.jpg',
-      preview: '/images/certificates/cert7.jpg'
+      image: '/website/images/certificates/cert7.jpg',
+      preview: '/website/images/certificates/cert7.jpg'
     },
     {
       id: 8,
@@ -76,8 +86,8 @@ const Certificates = () => {
       issuer: 'Mineral',
       year: '2025',
       location: 'CA (Online)',
-      image: '/images/certificates/cert8.jpg',
-      preview: '/images/certificates/cert8.jpg'
+      image: '/website/images/certificates/cert8.jpg',
+      preview: '/website/images/certificates/cert8.jpg'
     }
   ];
 
@@ -88,8 +98,8 @@ const Certificates = () => {
       issuer: 'Berkeley city colllege',
       year: '2025',
       location: 'Berkeley, CA',
-      image: '/images/certificates/cert9.jpg',
-      preview: '/images/certificates/cert9.jpg'
+      image: '/website/images/certificates/cert9.jpg',
+      preview: '/website/images/certificates/cert9.jpg'
     },
     {
       id: 10,
@@ -97,8 +107,8 @@ const Certificates = () => {
       issuer: 'Mineral',
       year: '2025',
       location: 'CA (Online)',
-      image: '/images/certificates/cert10.jpg',
-      preview: '/images/certificates/cert10.jpg'
+      image: '/website/images/certificates/cert10.jpg',
+      preview: '/website/images/certificates/cert10.jpg'
     },
     {
       id: 11,
@@ -106,8 +116,8 @@ const Certificates = () => {
       issuer: 'Mineral',
       year: '2025',
       location: 'CA (online)',
-      image: '/images/certificates/cert11.jpg',
-      preview: '/images/certificates/cert11.jpg'
+      image: '/website/images/certificates/cert11.jpg',
+      preview: '/website/images/certificates/cert11.jpg'
     }
   ];
 

@@ -75,7 +75,7 @@ const Home = () => {
               <div className="relative floating-animation">
                 <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full border-4 border-cyan-400 overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 p-2">
                   <img
-                    src="/images/profile.jpg"
+                    src="/website/images/profile.jpg"
                     alt="William Lebris"
                     className="w-full h-full object-cover rounded-full"
                     onError={(e) => {

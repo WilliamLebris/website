@@ -11,7 +11,7 @@ const About = () => {
       location: 'Oakland, California',
       period: '2024 - Present',
       gpa: '4.0',
-      logo: '/images/schools/laney-logo.png',
+      logo: '/website//images/schools/laney-logo.png',
       color: '#00d9ff'
     },
     {
@@ -20,7 +20,7 @@ const About = () => {
       location: 'Berkeley, California',
       period: '2024 - 2027 (expected graduation)',
       gpa: '4.0',
-      logo: '/images/schools/bcc-logo.png',
+      logo: '/website//images/schools/bcc-logo.png',
       color: '#7b2ff7'
     }
   ];
@@ -33,7 +33,7 @@ const About = () => {
       location: 'Berkeley, California',
       period: 'Aug 2024 - Present',
       description: 'Developed web tools for FBLA, led technical projects as VP of ASME Club, and tutored mathematics to fellow students, building strong leadership and technical skills.',
-      logo: '/images/companies/bcc-logo.png',
+      logo: '/website/images/companies/bcc-logo.png',
       color: '#00d9ff'
     },
     {
@@ -42,7 +42,7 @@ const About = () => {
       location: 'San Francisco Bay Area',
       period: 'Jun 2025 - Aug 2025',
       description: 'Configured IT infrastructure, supported recruiting, coordinated training, assisted with finance operations, and provided general tech support to ensure smooth office operations.',
-      logo: '/images/companies/marina-logo.png',
+      logo: '/website/images/companies/marina-logo.png',
       color: '#7b2ff7'
     },
     {
@@ -51,7 +51,7 @@ const About = () => {
       location: 'Emeryville, California',
       period: 'May 2025 - Present',
       description: 'Assisted customers in-store and online, handled POS operations, returns, BOPIS orders, and ensured high-quality customer service.',
-      logo: '/images/companies/homedepot-logo.png',
+      logo: '/website/images/companies/homedepot-logo.png',
       color: '#f97316'
     },
     {
@@ -60,7 +60,7 @@ const About = () => {
       location: 'Berkeley, California',
       period: 'Jun 2025',
       description: 'Built Healthly plan AI, an AI-powered health platform providing nutrition analysis, weekly meal plans, grocery planning, and doctor-style PDF reports using Python, Streamlit, FastAPI, and Gemini API.',
-      logo: '/images/companies/healthyplan-logo.png',
+      logo: '/website/images/companies/healthyplan-logo.png',
       color: '#10b981'
     },
     {
@@ -69,7 +69,7 @@ const About = () => {
       location: 'Oakland, California',
       period: 'Nov 2024 - Mar 2025',
       description: 'Provided IT support to students and faculty, troubleshooting hardware/software, maintaining campus IT equipment, and assisting in software/system deployment.',
-      logo: '/images/companies/laney-logo.png',
+      logo: '/website/images/companies/laney-logo.png',
       color: '#00d9ff'
     },
     {
@@ -78,7 +78,7 @@ const About = () => {
       location: 'Berkeley, California',
       period: 'Dec 2024 - Feb 2025',
       description: 'Repaired laptops/desktops, configured networks, assisted with tech sales, and gained hands-on experience in hardware/software troubleshooting.',
-      logo: '/images/companies/americantech-logo.png',
+      logo: '/website/images/companies/americantech-logo.png',
       color: '#7b2ff7'
     },
     {
@@ -87,7 +87,7 @@ const About = () => {
       location: 'Pleasanton, California',
       period: 'Jan 2025',
       description: 'Contributed as front-end developer in hackathon, enhancing teamwork, problem-solving, and React/Flask programming skills.',
-      logo: '/images/companies/zoho-logo.png',
+      logo: '/website/images/companies/zoho-logo.png',
       color: '#facc15'
     }
   ];
@@ -99,35 +99,35 @@ const About = () => {
       role: 'Volunteer',
       period: 'Sep 2024 - Mar 2025',
       description: 'Provided technical support, maintained IT equipment, and assisted in software/system deployments.',
-      logo: '/images/volunteer/laney-logo.png'
+      logo: '/website/images/volunteer/laney-logo.png'
     },
     {
       organization: 'EBMUD Administration',
       role: 'Volunteer',
       period: 'Sep 2024 - Present',
       description: 'Assisted with environmental clean up, keeping the community safe and clean.',
-      logo: '/images/volunteer/ebmud-logo.png'
+      logo: '/website/images/volunteer/ebmud-logo.png'
     },
     {
       organization: 'East Bay Regional Park District',
       role: 'Volunteer',
       period: 'Sep 2024 - Present',
       description: 'Supported environmental initiatives and community programs. Helped keep the city green and clean.',
-      logo: '/images/volunteer/ebpark-logo.png'
+      logo: '/website/images/volunteer/ebpark-logo.png'
     },
     {
       organization: 'Fairfield-Suisun Sewer District',
       role: 'Volunteer',
       period: 'Apr 2024 - Present',
       description: 'Contributed to environmental and community support activities including clean up.',
-      logo: '/images/volunteer/fssd-logo.png'
+      logo: '/website/images/volunteer/fssd-logo.png'
     },
     {
       organization: 'Berkeley City College - DreamLaunch',
       role: 'Participant | Project Proposal',
       period: 'Apr 2025 - May 2025',
       description: 'Presented a tech-driven business proposal in DreamLaunch Shark Tank competition, enhancing entrepreneurial and presentation skills.',
-      logo: '/images/volunteer/bcc-logo.png'
+      logo: '/website/images/volunteer/bcc-logo.png'
     }
   ];
 
@@ -138,28 +138,28 @@ const About = () => {
       issuer: 'United Negro College Fund (UNCF)',
       year: 'Aug 2025',
       description: 'Awarded for outstanding academic achievements ',
-      logo: '/images/awards/uncf-logo.png'
+      logo: '/website/images/awards/uncf-logo.png'
     },
     {
       title: 'ASLC Hardship Scholarship',
       issuer: 'Laney College',
       year: 'Apr 2025',
       description: 'Recognized for resilience and excellence while managing academic and personal challenges.',
-      logo: '/images/awards/laney-logo.png'
+      logo: '/website/images/awards/laney-logo.png'
     },
     {
       title: 'PepsiCo Uplift Scholarship',
       issuer: 'PepsiCo',
       year: 'Feb 2025',
       description: 'Awarded for leadership and innovation at Laney College.',
-      logo: '/images/awards/pepsico-logo.png'
+      logo: '/website/images/awards/pepsico-logo.png'
     },
     {
       title: 'Hackathon Winner',
       issuer: 'Zoho Corporation | Charmhealth | JoyThomas',
       year: 'Jan 2025',
       description: 'Won front-end development hackathon for creating impactful solutions.',
-      logo: '/images/awards/zoho-logo.png'
+      logo: '/website/images/awards/zoho-logo.png'
     }
   ];
 
@@ -191,7 +191,7 @@ const About = () => {
           <h2 className="text-2xl font-bold mb-4 text-cyan-400">Hello! 👋</h2>
           <div className="space-y-4 text-gray-300 text-lg">
             <p>
-              I'm <span className="text-cyan-400 font-semibold">William Lebris</span> — an Electrical & Computer Science student at Laney College and Berkeley City College. I am currently developing <a href="https://studentlifeos.com" className="text-purple-400 underline">SchoolLife-OS</a>, a platform providing students with opportunities such as internship, Scholarship, Conferences, Hackathon, vault, and i showed all the things we can advanatges of while being a student, i'm partnerships with schools and organizations, where school can monitor their student and provide ressources for them as well, alongside with Organization who provide students with opportunities. If you are a student, defineitely check it out!
+              I'm <span className="text-cyan-400 font-semibold">William Lebris</span> — an Electrical & Computer Science student at Laney College and Berkeley City College. I am currently developing <a href="https://studentlifeos.com" className="text-purple-400 underline">SchoolLife-OS</a>, a platform providing students with opportunities such as internship, Scholarship, Conferences, Hackathon, vault, and I showed all the things we can advantages of while being a student, i'm partnerships with schools and organizations, where school can monitor their student and provide ressources for them as well, alongside with Organization who provide students with opportunities. If you are a student, definitely check it out!
             </p>
             <p>
              Back on me 😆, I have ambitions to transfer to UC Berkeley, Stanford, MIT, or UCLA in 2027, after graduating from Berkeley City College. My GPA has consistently been <span className="text-cyan-400 font-semibold">4.0</span>.
