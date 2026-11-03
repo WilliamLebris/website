@@ -30,7 +30,7 @@ const Contact = () => {
     
     try {
       // Simple mailto solution
-      const mailtoLink = `mailto:williamlebris001@gmail.com?subject=${encodeURIComponent(formData.subject || 'Contact Form Message')}&body=${encodeURIComponent(
+      const mailtoLink = `mailto:ceo@studentlifeos.com?subject=${encodeURIComponent(formData.subject || 'Contact Form Message')}&body=${encodeURIComponent(
         `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
       )}`;
       
@@ -47,7 +47,7 @@ const Contact = () => {
     } catch (error) {
       setStatus({
         type: 'error',
-        message: 'Something went wrong. Please try again or email me directly at williamlebris001@gamil.com'
+        message: 'Something went wrong. Please try again or email me directly at ceo@studentlifeos.com'
       });
     } finally {
       setIsSubmitting(false);
@@ -241,10 +241,10 @@ const Contact = () => {
           <p className="text-gray-400">
             Prefer email? Drop me a line at{' '}
             <a
-              href="mailto:williamlebris001@gmail.com"
+              href="mailto:ceo@studentlifeos.com"
               className="text-cyan-400 hover:underline font-semibold"
             >
-              williamlebris001@gmail.com
+              ceo@studentlifeos.com
             </a>
           </p>
         </motion.div>

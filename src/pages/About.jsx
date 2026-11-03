@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { User, GraduationCap, Briefcase, Heart, Award } from 'lucide-react';
 
@@ -27,6 +28,51 @@ const About = () => {
 
   // Work Experience (summarized descriptions)
   const workExperience = [
+    {
+      company: 'UC Berkeley Space Sciences Laboratory (SSL)',
+      position: 'AI Research Intern',
+      location: 'Berkeley, California',
+      period: 'Jun 2026 - Aug 2026',
+      description: "Worked on NASA's Carruthers Geocorona Observatory, building Python and OpenCV pipelines that detect and track stars in the spacecraft's ultraviolet images to measure its pointing, map optical distortions, and validate mission observations for Earth exosphere research.",
+      logo: '/website/images/companies/ssl-logo.png',
+      color: '#fdb515'
+    },
+    {
+      company: "NASA L'SPACE Mission Concept Academy",
+      position: 'Electrical Engineer',
+      location: 'Virtual',
+      period: 'Sep 2026 - Present',
+      description: "Responsible for the power and avionics design of my team's spacecraft mission concept in this NASA-funded academy, working through the NASA mission life cycle with science, mechanical, and systems teammates.",
+      logo: '/website/images/companies/lspace-logo.png',
+      color: '#00d9ff'
+    },
+    {
+      company: 'NASA Community College Aerospace Scholars (NCAS)',
+      position: 'NASA Community College Aerospace Scholar',
+      location: 'Virtual',
+      period: 'Oct 2026 - Present',
+      description: "Participant in NASA's community college challenge, attending live sessions with NASA experts and building a career portfolio that connects my coursework to NASA career pathways.",
+      logo: '/website/images/companies/ncas-logo.png',
+      color: '#fb923c'
+    },
+    {
+      company: 'Stanford University',
+      position: 'Stanford Small Group Scholars Program | Participant',
+      location: 'Stanford, California',
+      period: 'Oct 2026 - Present',
+      description: "Selected for Stanford's Scholars Program, exploring how data organization and labeling improve AI predictions.",
+      logo: null,
+      color: '#f87171'
+    },
+    {
+      company: 'StudentLife OS',
+      position: 'Founder & Lead Engineer',
+      location: 'San Francisco Bay Area, California',
+      period: 'Launched Aug 2025',
+      description: 'Founded and launched StudentLife OS, a live platform that connects students with internships, scholarships, research, and campus resources. Built the full stack (Next.js, TypeScript, PostgreSQL, Prisma) and its AI application assistant, and lead a team of student interns.',
+      logo: '/website/images/companies/studentlifeos-logo.png',
+      color: '#ef4444'
+    },
     {
       company: 'Berkeley City College',
       position: 'Web Developer - FBLA / VP ASME Club / Mathematics Tutor',
@@ -59,7 +105,7 @@ const About = () => {
       position: 'Founder | AI Engineer & Product/Web Designer',
       location: 'Berkeley, California',
       period: 'Jun 2025',
-      description: 'Built Healthly plan AI, an AI-powered health platform providing nutrition analysis, weekly meal plans, grocery planning, and doctor-style PDF reports using Python, Streamlit, FastAPI, and Gemini API.',
+      description: 'Built Healthy Plan AI, an AI-powered health platform providing nutrition analysis, weekly meal plans, grocery planning, and doctor-style PDF reports using Python, Streamlit, FastAPI, and Gemini API.',
       logo: '/website/images/companies/healthyplan-logo.png',
       color: '#10b981'
     },
@@ -134,6 +180,13 @@ const About = () => {
   // Honors & Awards
   const honorsAwards = [
     {
+      title: 'Certificate of Completion: Advancing Space Sciences through Undergraduate Research Experience',
+      issuer: 'UC Berkeley Space Sciences Laboratory',
+      year: 'Aug 2026',
+      description: 'Awarded for completing the 2026 undergraduate research experience at SSL, working on NASA Carruthers mission data.',
+      logo: '/website/images/companies/ssl-logo.png'
+    },
+    {
       title: 'UNCF Scholarship',
       issuer: 'United Negro College Fund (UNCF)',
       year: 'Aug 2025',
@@ -191,19 +244,16 @@ const About = () => {
           <h2 className="text-2xl font-bold mb-4 text-cyan-400">Hello! 👋</h2>
           <div className="space-y-4 text-gray-300 text-lg">
             <p>
-              I'm <span className="text-cyan-400 font-semibold">William Lebris</span> — an Electrical & Computer Science student at Laney College and Berkeley City College. I am currently developing <a href="https://studentlifeos.com" className="text-purple-400 underline">SchoolLife-OS</a>, a platform providing students with opportunities such as internship, Scholarship, Conferences, Hackathon, vault, and I showed all the things we can advantages of while being a student, i'm partnerships with schools and organizations, where school can monitor their student and provide ressources for them as well, alongside with Organization who provide students with opportunities. If you are a student, definitely check it out!
+              I'm <span className="text-cyan-400 font-semibold">William Lebris Tissi Nguemetcha</span>, an Electrical Engineering & Computer Science student at Berkeley City College and Laney College with a <span className="text-cyan-400 font-semibold">4.0 GPA</span>. I build at the intersection of electrical engineering, AI, and space science.
             </p>
             <p>
-             Back on me 😆, I have ambitions to transfer to UC Berkeley, Stanford, MIT, or UCLA in 2027, after graduating from Berkeley City College. My GPA has consistently been <span className="text-cyan-400 font-semibold">4.0</span>.
+              In summer 2026 I was an <span className="text-cyan-400 font-semibold">AI Research Intern at the UC Berkeley Space Sciences Laboratory</span>, working on NASA's Carruthers Geocorona Observatory. I built computer vision pipelines that track stars in the spacecraft's images to measure its pointing and find optical distortions. This fall I'm the <span className="text-cyan-400 font-semibold">Electrical Engineer</span> on a NASA L'SPACE Mission Concept Academy team and a <span className="text-cyan-400 font-semibold">NASA Community College Aerospace Scholar (NCAS)</span>.
             </p>
             <p>
-              I am passionate about creating impactful technology solutions, blending technical skills with innovation and leadership gained from my projects, internships, and volunteering. Definetely check out my linkedin, you can find out useful things there that can help you! Ive built several projects, including AI-powered applications, web development, and more. Feel free to explore my <a href="/projects" className="text-purple-400 underline">projects</a> and <a href="/certificates" className="text-purple-400 underline">certificates</a> to see what I've been working on.
+              I'm also the founder of <a href="https://studentlifeos.com" target="_blank" rel="noopener noreferrer" className="text-purple-400 underline">StudentLife OS</a>, which launched in August 2025. It's a live platform that connects students with internships, scholarships, research programs, conferences, hackathons, and campus resources, and it gives schools and organizations the tools to support and reach their students. If you're a student, check it out!
             </p>
             <p>
-              I'm still learning and growing every day, and I'm excited about the future of technology and the opportunities it brings. If you'd like to connect or collaborate, please don't hesitate to reach out via my <a href="/contact" className="text-purple-400 underline">contact page</a>.
-            </p>
-            <p>
-              I am working on several exciting projects, finding my way out, building amazing things, and exploring new technologies. Stay tuned for more updates!
+              I plan to transfer to UC Berkeley, Stanford, MIT, or UCLA in 2027 and build a career designing the electronics and software behind NASA missions. Explore my <Link to="/career-portfolio" className="text-purple-400 underline">NCAS career portfolio</Link>, <Link to="/projects" className="text-purple-400 underline">projects</Link>, and <Link to="/certificates" className="text-purple-400 underline">certificates</Link>, or reach out through my <Link to="/contact" className="text-purple-400 underline">contact page</Link>.
             </p>
 
           </div>
@@ -288,14 +338,18 @@ const About = () => {
             className="w-20 h-20 bg-gray-700 rounded-xl flex items-center justify-center flex-shrink-0 border-2"
             style={{ borderColor: job.color }}
           >
-            <img
-              src={job.logo}
-              alt={job.company}
-              className="w-16 h-16 object-contain"
-              onError={(e) => {
-                e.target.src = `https://via.placeholder.com/80/1a1f2e/${job.color.replace('#', '')}/fff?text=💼`;
-              }}
-            />
+            {job.logo ? (
+              <img
+                src={job.logo}
+                alt={job.company}
+                className="w-16 h-16 object-contain"
+                onError={(e) => {
+                  e.target.src = `https://via.placeholder.com/80/1a1f2e/${job.color.replace('#', '')}/fff?text=💼`;
+                }}
+              />
+            ) : (
+              <GraduationCap size={40} style={{ color: job.color }} />
+            )}
           </div>
 
           <div className="flex-1">

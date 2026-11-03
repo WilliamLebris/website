@@ -17,7 +17,7 @@ const Projects = () => {
     {
       id: 2,
       title: 'StudentLife OS Platform',
-      description: 'Developed a platform that provide California CC Student with Internship, Scholarship, Conferences, Event,  Resources, I partneted with 20+ School, 30+ organizations to help 1000+ students. Everyone has his own dashboard and login portal.',
+      description: 'Founded and launched (August 2025) a live platform that connects students with internships, scholarships, research, conferences, events, and campus resources. Partnered with 20+ schools and 30+ organizations to help 1,000+ students, with dedicated portals for students, schools, and organizations.',
       image: '/website//images/project2.jpg', // UPDATE: Add your project image
       tags: ['Python', 'React', 'HTML & CSS', 'Resend', 'AWS','Supabase', 'Prisma', 'Apis (Open Ai, Etc)', 'Postgrels'],
       githubUrl: 'https://studentlifeos.com',

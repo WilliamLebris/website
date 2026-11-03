@@ -65,19 +65,39 @@ const Skills = () => {
 
   const skillCategories = [
     {
+      title: 'Space & Scientific Computing',
+      skills: ['Star detection & tracking in spacecraft images', 'Spacecraft pointing analysis', 'Optical distortion mapping', 'Science data validation', 'NumPy & pandas'],
+      icon: '🛰️'
+    },
+    {
+      title: 'Electrical & Hardware',
+      skills: ['Circuit analysis & design', 'Spacecraft power systems & power budgets', 'Avionics integration', 'Arduino & Raspberry Pi', 'Hardware diagnostics & repair', 'Networking (routers, modems)'],
+      icon: '⚡'
+    },
+    {
+      title: 'Systems Engineering',
+      skills: ['NASA mission life cycle', 'Requirements & trade studies', 'Design reviews', 'Technical writing', 'Interdisciplinary teamwork'],
+      icon: '🚀'
+    },
+    {
       title: 'Programming Languages',
-      skills: ['Python', 'C++', 'C', 'Java', 'JavaScript', 'SQL', 'Java', ],
+      skills: ['Python', 'C++', 'C', 'Java', 'JavaScript', 'TypeScript', 'SQL', 'Assembly'],
       icon: '💻'
     },
     {
-      title: 'AI/ML Frameworks',
+      title: 'AI/ML & Computer Vision',
       skills: ['TensorFlow', 'PyTorch', 'Keras', 'Scikit-learn', 'OpenCV'],
       icon: '🤖'
     },
     {
       title: 'Web Technologies',
-      skills: ['React', 'Node.js', 'HTML5', 'CSS3', 'Tailwind CSS', 'Flask', 'Streamlit', 'pandas'],
+      skills: ['React', 'Next.js', 'Node.js', 'HTML5', 'CSS3', 'Tailwind CSS', 'Flask', 'Streamlit'],
       icon: '🌐'
+    },
+    {
+      title: 'Cybersecurity',
+      skills: ['Encryption & audit logging', 'NIST Cybersecurity Framework 2.0', 'Phishing & browser security', 'Data protection'],
+      icon: '🔐'
     },
     {
       title: 'Databases',

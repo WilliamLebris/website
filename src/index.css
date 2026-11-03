@@ -74,3 +74,118 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* Print / Save as PDF: turns the Career Portfolio into a clean light document */
+@media print {
+  @page {
+    size: letter;
+    margin: 0.5in;
+  }
+
+  html,
+  body,
+  .App {
+    background: #fff !important;
+    color: #111827 !important;
+    min-height: 0 !important;
+  }
+
+  nav,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+
+  .career-portfolio {
+    padding: 0 !important;
+    min-height: 0 !important;
+  }
+
+  .career-portfolio .pf-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .career-portfolio,
+  .career-portfolio * {
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    color: #1f2937 !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+
+  .career-portfolio h1,
+  .career-portfolio h2,
+  .career-portfolio h3,
+  .career-portfolio b,
+  .career-portfolio .text-white {
+    color: #0f172a !important;
+  }
+
+  .career-portfolio .text-cyan-400,
+  .career-portfolio a {
+    color: #0e7490 !important;
+  }
+
+  .career-portfolio .text-gradient {
+    background: none !important;
+  }
+
+  .career-portfolio .pf-card {
+    background: #fff !important;
+    border-color: #cbd5e1 !important;
+    break-inside: avoid;
+  }
+
+  .career-portfolio .pf-logo {
+    background: #0a0f1e !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Long cards may continue onto the next page instead of leaving half-empty pages */
+  .career-portfolio .pf-card.pf-flow {
+    break-inside: auto;
+  }
+
+  .career-portfolio h2,
+  .career-portfolio h3,
+  .career-portfolio .pf-keep {
+    break-after: avoid;
+    break-inside: avoid;
+  }
+
+  .career-portfolio tr,
+  .career-portfolio li {
+    break-inside: avoid;
+  }
+
+  .career-portfolio .text-5xl { font-size: 32px !important; line-height: 1.1 !important; }
+  .career-portfolio .text-3xl { font-size: 22px !important; }
+  .career-portfolio .text-2xl { font-size: 18px !important; }
+  .career-portfolio .text-xl { font-size: 15px !important; }
+  .career-portfolio .text-lg { font-size: 13.5px !important; }
+  .career-portfolio .text-sm { font-size: 12px !important; }
+
+  .career-portfolio .resume-section,
+  .career-portfolio .references-section {
+    break-before: page;
+  }
+
+  /* Resume image fills one printed page under its section title */
+  .career-portfolio .resume-sheet {
+    padding: 0 !important;
+    border-radius: 0 !important;
+    max-width: none !important;
+    break-inside: avoid;
+  }
+
+  .career-portfolio .resume-image {
+    width: auto !important;
+    max-width: 100% !important;
+    max-height: 9.3in;
+    margin: 0 auto;
+  }
+}

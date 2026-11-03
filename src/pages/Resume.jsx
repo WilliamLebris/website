@@ -32,8 +32,8 @@ const Resume = () => {
   const handleDownload = () => {
     // UPDATE: Add your resume PDF to public/resume/
     const link = document.createElement('a');
-    link.href = '/website/resume/William%20Resume.pdf';
-    link.download = 'William_Lebris_Resume.pdf';
+    link.href = '/website/resume/Will%27s%20resume-2026.docx.pdf';
+    link.download = 'William_Lebris_Tissi_Nguemetcha_Resume.pdf';
     link.click();
   };
 
@@ -148,7 +148,7 @@ const Resume = () => {
           >
             {/* UPDATE: Add your resume PDF to public/resume/ */}
             <embed
-              src="/website/resume/William%20Resume.pdf"
+              src="/website/resume/Will%27s%20resume-2026.docx.pdf"
               type="application/pdf"
               className="w-full"
               style={{ height: '1100px' }}

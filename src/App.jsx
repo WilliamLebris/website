@@ -12,6 +12,7 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import References from './pages/References';
+import CareerPortfolio from './pages/CareerPortfolio';
 import './App.css';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/references" element={<References />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/career-portfolio" element={<CareerPortfolio />} />
           </Routes>
         </main>
         <Footer />

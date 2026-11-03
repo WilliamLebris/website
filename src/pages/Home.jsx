@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Linkedin, Mail, Instagram, Github, Code2, MapPin, Award, MessageSquare } from 'lucide-react';
 
@@ -14,9 +15,9 @@ const Home = () => {
     },
     {
       icon: <Mail size={28} />,
-      action: () => window.location.href = 'mailto:williamlebris001@gmail.com',
+      action: () => window.location.href = 'mailto:ceo@studentlifeos.com',
       label: 'Email',
-      email: 'williamlebris001@gmail.com',
+      email: 'ceo@studentlifeos.com',
       color: '#EA4335'
     },
     
@@ -35,6 +36,10 @@ const Home = () => {
   ];
 
   const badges = [
+    'NASA Community College Aerospace Scholar',
+    'AI Researcher @ UC Berkeley SSL',
+    "NASA L'SPACE Electrical Engineer",
+    'Founder of StudentLife OS',
     'AI Enthusiast',
     'Electrical Engineering Student',
     'Machine Learning learner',
@@ -102,8 +107,16 @@ const Home = () => {
             </h1>
 
             <p className="text-xl sm:text-2xl text-gray-300">
-              Electrical & Computer Science | Artificial Intelligence | Frontend & Backend Developer | Tech Explorer
+              Electrical & Computer Science | Artificial Intelligence | Space Science Research | Full-Stack Developer
             </p>
+
+            <Link
+              to="/career-portfolio"
+              className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white rounded-xl font-semibold shadow-lg hover:shadow-cyan-500/50 transition-all duration-300"
+            >
+              <img src="/website/images/companies/ncas-logo.png" alt="" className="w-8 h-8" />
+              View my NCAS Career Portfolio
+            </Link>
 
             <div className="flex flex-wrap gap-3">
               {badges.map((badge, index) => (
@@ -144,7 +157,7 @@ const Home = () => {
               >
                 <MessageSquare className="text-green-400 mb-2" size={24} />
                 <div className="text-xs text-gray-400 mb-1">Contact</div>
-                <div className="text-sm font-medium">williamlebris001@gmail.com</div>
+                <div className="text-sm font-medium">ceo@studentlifeos.com</div>
               </motion.div>
             </div>
           </motion.div>

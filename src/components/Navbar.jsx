@@ -8,6 +8,7 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', path: '/' },
+    { name: 'NCAS Portfolio', path: '/career-portfolio' },
     { name: 'Projects', path: '/projects' },
     { name: 'Skills', path: '/skills' },
     { name: 'Gallery', path: '/gallery' },
@@ -30,7 +31,7 @@ const Navbar = () => {
             </div>
             <div>
               <div className="text-white font-bold text-lg">William Lebris</div>
-              <div className="text-gray-400 text-xs">Elec • Comp Sci•  AI • Developer</div>
+              <div className="text-gray-400 text-xs">Elec Eng • Comp Sci • AI • Space Research</div>
             </div>
           </Link>
 
