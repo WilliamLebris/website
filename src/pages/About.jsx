@@ -61,7 +61,7 @@ const About = () => {
       location: 'Stanford, California',
       period: 'Oct 2026 - Present',
       description: "Selected for Stanford's Scholars Program, exploring how data organization and labeling improve AI predictions.",
-      logo: null,
+      logo: '/website/images/companies/stanford-logo.png',
       color: '#f87171'
     },
     {
